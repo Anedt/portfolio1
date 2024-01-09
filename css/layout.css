@@ -1,0 +1,70 @@
+@media (min-width: 500px) {
+
+
+.image-container img {
+  background-size: cover;
+    position:relative;
+    max-width: 150%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+
+#nav_standard {
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+
+  .cv {
+    display: list-item
+  }
+  
+  li {
+    margin: 0 60px;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+.header-overlay {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  position: absolute;
+  top: 0%;
+}
+
+
+.text-overlay {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+}
+
+.etternavn {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+
+.grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px;
+}
+
+.overskrift {
+text-align: center;
+padding: 20px;
+}
+
+}

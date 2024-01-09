@@ -1,0 +1,29 @@
+.etternavn {
+   color: #104227;
+}
+
+h1 { 
+   font-family: "kadwa";
+   src: url(../fonts/kadwa-bold-webfont.woff2);
+   text-align: center;
+   font-size: 60px;
+   word-wrap: break-word;
+}
+
+h2 {
+   font-family: "kadwa";
+   font-size: 32px;
+}
+
+h3 {
+   font-family: "kadwa";
+   font-size: 20px;
+}
+
+p {
+   font-family: "crimsontext";
+   src: url(../fonts/crimsontext-regular-webfont.woff2);
+   font-size: 20px;
+   text-align: left;
+
+}
