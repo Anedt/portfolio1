@@ -27,3 +27,13 @@ p {
    text-align: left;
 
 }
+
+h4 {
+   font-family: "crimsontext";
+   font-size: 17px;
+}
+
+h5 {
+   font-family: "crimsontext";
+   font-size: 15px;
+}

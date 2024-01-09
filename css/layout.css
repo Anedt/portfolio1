@@ -12,6 +12,8 @@
 } 
 
 
+
+
 #nav_standard {
     display: flex;
     justify-content: flex-end;
@@ -59,7 +61,8 @@
 .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 30px;
+    margin: 50px;
+    padding: 20px;
 }
 
 .overskrift {
@@ -67,4 +70,7 @@ text-align: center;
 padding: 20px;
 }
 
+.bcg {
+  background-color: #F4F4F4;
+}
 }
