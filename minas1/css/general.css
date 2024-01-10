@@ -1,0 +1,165 @@
+/*generel css*/
+/*fonte mm*/
+h1 {
+    font-family:'Open Sans', sans-serif;
+    font-size: 40px;
+    color: #EDECD4;
+}
+
+h2 {
+    font-family:'Open Sans', sans-serif;
+    font-size: 70px;
+    color: #EDECD4;
+    font-weight: 500;
+    text-align: center;
+    padding: 0;
+    margin: 40px;
+}
+
+h3 {
+    font-family: 'Courier New';
+    font-size: 45px;
+    color: #F8FB64;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: #EDECD4;
+    font-weight: lighter;
+}
+
+main p {
+    font-family:'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #EDECD4;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+}
+
+/*header / nav bar*/
+/*billeder/logoer*/
+#logo_lille {
+    background-image: url(/img/mina_logo_ny.webp);
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 10%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+#logo_lille a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#instagram_logo {
+    background-image: url(/img/instagram_logo.webp);
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1%;
+    position: absolute;
+    padding: 3px;
+}
+
+#facebook_logo {
+    background-image: url(/img/facebook_logo.webp);
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1%;
+    position: absolute;
+    padding: 3px;
+}
+
+#instagram_logo1 {
+    background-image: url(/img/instagram_logo.webp);
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 4%;
+    position: absolute;
+    padding: 3px;
+}
+
+#facebook_logo1 {
+    background-image: url(/img/facebook_logo.webp);
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 4%;
+    position: absolute;
+    padding: 3px;
+}
+
+/*nav standard css*/
+  #nav_standard {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 30px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #EDECD4;
+    font-family: 'Courier New';
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+ /*footer*/
+
+ footer {
+    position: absolute;
+    width: 100%;
+ }
+
+ .blue {
+    background-color: #325188;
+ }
+ .lilla {
+    background-color: #795A61;
+ }
+ 
+ #grid1_1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+ }
+
+
+footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #EDECD4;
+    padding: 0;
+    margin:15px;
+ }
+
+ footer a {
+    color: #EDECD4;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+ }

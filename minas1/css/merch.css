@@ -1,0 +1,50 @@
+/*lokal css*/
+body {
+    background-color: #35282C;
+    margin: 0;
+    padding: 0;
+}
+
+#grid1_1_1 {
+    padding: 10px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    margin-left: 35px;
+}
+
+/* JAVA SCRIPT TING
+.newPic {
+    background-image: url(/img/socks.webp);
+    aspect-ratio: 6/9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 95%;
+}
+*/ 
+
+#tanktop {
+    background-image: url(/img/tanktop.webp);
+    aspect-ratio: 6/9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 95%;
+}
+
+#socks {
+    background-image: url(/img/socks.webp);
+    aspect-ratio: 6/9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 95%;
+}
+
+#t-shirt {
+    background-image: url(/img/tshirt.webp);
+    aspect-ratio: 6/9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 95%;
+}
+

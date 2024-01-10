@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(50, 81, 136);
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #forside_tekst {
+    text-align: center;
+  }
+  
+  #grid1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding: 2%;
+    margin-left: 20%;
+  }
+  
+  ul {
+    position: absolute;
+    top: 1%;
+    list-style: none;
+    display: flex;
+    color: white;
+  }
+  
+  #logo_stor {
+    position: absolute;
+    left: 34%;
+    top: 17%;
+    max-width: 100%;
+    width:35%;
+  height: auto;
+  display: block;
+  margin: auto;
+
+  }
+  
+  video{
+    width: 45%;
+    height: auto;
+    aspect-ratio: 16/9;
+    margin-left: 28%;
+  }
+
+  #Forside_billeder{
+    display: grid;
+    grid-template-columns: 0.4fr 0.4fr;
+    grid-template-rows: 1.2fr 1fr;
+    padding: 4%;
+    margin-left: 18%;
+  }
+
+  .baggrund_billede1 {
+    background-size: cover;
+    position:relative;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+ }
+
+ .image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block; 
+  margin: 0 auto; 
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
