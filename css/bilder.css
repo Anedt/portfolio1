@@ -2,8 +2,6 @@ img {
     width: 50%;
     background-size: cover;
     position:relative;
-    align-items: center;
-    justify-content: center;
     display: flex;
     left: 25%;
     padding-bottom: 50px;
