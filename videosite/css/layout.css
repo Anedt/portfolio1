@@ -1,0 +1,50 @@
+@media (min-width:500px) {
+
+.hbgcolor {
+    background-color: gray;
+}
+
+.grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: -45%;
+
+}
+.image-container {
+    position: relative;
+    max-width: 100%;
+ }
+
+ .image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+ }
+ 
+ .col {
+    margin: 20px;
+    position: relative;
+    margin-left: auto;
+ }
+
+ .bilde1 {
+    max-width: 100%;
+    position: relative;
+    margin-left: -7%;
+    margin-top: 25px;
+ }
+
+ .bilde2 {
+    max-width: 100%;
+    position: relative;
+    margin-left: 75px;
+ }
+
+ .video_container {
+   width: 45%;
+    height: auto;
+    aspect-ratio: 16/9;
+    margin-left: 30%;
+ }
+
+}

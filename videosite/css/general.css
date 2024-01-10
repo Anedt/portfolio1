@@ -1,0 +1,32 @@
+
+
+.hbgcolor {
+    background-color: rgb(73, 72, 72);
+    width: 100%;
+}
+
+h1{
+    margin: 10px;
+    padding: 10px 10px 40px;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 45px;
+    word-wrap: break-word;
+    color:rgb(10, 16, 16);
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
+
+nav ul{
+    list-style-type: none;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: space-around;
+
+}
