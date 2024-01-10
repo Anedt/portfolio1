@@ -2,6 +2,8 @@
    color: #104227;
 }
 
+
+
 h1 { 
    font-family: "kadwa";
    src: url(../fonts/kadwa-bold-webfont.woff2);
@@ -41,6 +43,16 @@ h5 {
 footer {
    position: absolute;
     width: 100%;
-    background-color:#f7f7f7;
+    background-color:#729A84;
  }
+
+ .logo {
+   background-image: url(../img/logo.webp);
+   aspect-ratio: 13/5;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 12%;
+  position: relative;
+  margin: 18px;
+}
 
