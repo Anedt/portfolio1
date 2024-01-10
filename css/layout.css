@@ -79,4 +79,10 @@ padding: 20px;
   position: relative;
   margin: 0 auto;
 }
+
+.tema {
+  position: relative;
+  left: 200px;
+}
+
 }

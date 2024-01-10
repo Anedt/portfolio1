@@ -37,3 +37,10 @@ h5 {
    font-family: "crimsontext";
    font-size: 15px;
 }
+
+footer {
+   position: absolute;
+    width: 100%;
+    background-color:#f7f7f7;
+ }
+

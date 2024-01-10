@@ -6,4 +6,5 @@ img {
     justify-content: center;
     display: flex;
     left: 25%;
+    padding-bottom: 50px;
 }
