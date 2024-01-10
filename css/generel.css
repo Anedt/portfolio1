@@ -22,13 +22,18 @@ h3 {
    font-size: 20px;
 }
 
+.underoverskrift {
+   text-align: center;
+  
+ }
+
 p {
    font-family: "crimsontext";
    src: url(../fonts/crimsontext-regular-webfont.woff2);
    font-size: 20px;
-   text-align: left;
 
 }
+
 
 h4 {
    font-family: "crimsontext";
@@ -43,7 +48,7 @@ h5 {
 footer {
    position: absolute;
     width: 100%;
-    background-color:#729A84;
+    background-color: #203E2E;
  }
 
  .logo {
@@ -54,5 +59,15 @@ footer {
    width: 12%;
   position: relative;
   margin: 18px;
+}
+footer a {
+   color: black;
+   padding: 0;
+   margin: 0;
+}
+
+a {
+   text-decoration: underline;
+   color: #203E2E;
 }
 
