@@ -1,0 +1,43 @@
+img {
+    display: block;
+    max-width: 100%;
+}
+body {
+   background-color:rgb(156, 147, 147)
+   }
+
+   p {font-family: "poppins";
+src: url(../Font/poppins-medium-webfont.woff2);}
+
+   h1 {font-family:"oswald";
+src: url(../Font/oswald-variablefont_wght-webfont.woff2);
+color: rgb(21, 9, 32);}
+
+    h2{
+    color: rgb(74, 22, 122);
+    margin: 10px;
+    padding: 10px 0 40px;
+    font-family:"oswald";
+}
+p {margin: 10px;
+    
+}
+dd {margin: 10px;
+    text-align: center;
+}
+dt { text-align: center;}
+
+a:link {
+color: rgb(57, 41, 72);
+}
+a:visited {
+    color: rgb(145, 82, 193);
+}
+a:hover {
+    color: rgb(23, 14, 31);
+}
+a:active {
+    color: rgb(44, 36, 91);
+}
+
+
